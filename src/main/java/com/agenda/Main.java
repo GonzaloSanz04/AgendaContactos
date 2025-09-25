@@ -1,16 +1,10 @@
+package com.agenda;
+
+import com.agenda.ExportManager;
 import java.sql.Connection;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-
-        /* PARA PROBAR LA CONEXION A LA BBDD
-        try (Connection con = DBConnection.getConnection()) {
-            System.out.println("✅ Conexión establecida con éxito.");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        */
 
         Scanner sc = new Scanner(System.in);
         while (true){
@@ -19,6 +13,8 @@ public class Main {
             System.out.println("2. Listar contactos");
             System.out.println("3. Editar contacto");
             System.out.println("4. Eliminar contacto");
+            System.out.println("5. Exportar contactos (CSV)");
+            System.out.println("6. Exportar contactos (JSON)");
             System.out.println("0. Salir");
             System.out.print("Elige una opción: ");
 
@@ -34,6 +30,8 @@ public class Main {
                 case 2 -> listarContactos();
                 case 3 -> editarContacto(sc);
                 case 4 -> eliminarContacto(sc);
+                case 5 -> ExportManager.exportarCSV();
+                case 6 -> ExportManager.exportarJSON();
                 default -> System.out.println("Opción inválida");
             }
         }
@@ -55,7 +53,7 @@ public class Main {
             ps.setString(3, email);
 
             int filas = ps.executeUpdate();
-            if (filas > 0) System.out.println("✅ Contacto agregado correctamente.");
+            if (filas > 0) System.out.println("✅ classes.java.com.agenda.Contacto agregado correctamente.");
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -99,7 +97,7 @@ public class Main {
 
             int filas = ps.executeUpdate();
             if (filas > 0) {
-                System.out.println("✅ Contacto actualizado correctamente.");
+                System.out.println("✅ classes.java.com.agenda.Contacto actualizado correctamente.");
             } else {
                 System.out.println("⚠️ No se encontró un contacto con ese id.");
             }
@@ -119,7 +117,7 @@ public class Main {
 
             int filas = ps.executeUpdate();
             if (filas > 0) {
-                System.out.println("✅ Contacto eliminado correctamente.");
+                System.out.println("✅ classes.java.com.agenda.Contacto eliminado correctamente.");
             } else {
                 System.out.println("⚠️ No se encontró un contacto con ese id.");
             }

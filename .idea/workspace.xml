@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2773cda1-5ffb-4f3d-814d-ac749563d67c" name="Changes" comment="Operaciones CRUD">
+    <list default="true" id="c1be3412-660e-4417-89fe-8a04b0989e9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactos.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contactos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agenda/Contacto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agenda/ExportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/agenda/ContactoManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/agenda/DBConnectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agenda/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agenda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +34,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -35,21 +52,73 @@
     </option>
   </component>
   <component name="ProjectId" id="33BtJKme1lPLxEQQsLuRqjUBNjt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.ContactoManagerTest.testInsertarContacto">
+    <configuration name="ContactoManagerTest.testInsertarContacto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agenda-contactos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agenda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agenda" />
+      <option name="MAIN_CLASS_NAME" value="com.agenda.ContactoManagerTest" />
+      <option name="METHOD_NAME" value="testInsertarContacto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBConnectionTest.testConexion (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agenda-contactos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agenda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agenda" />
+      <option name="MAIN_CLASS_NAME" value="com.agenda.DBConnectionTest" />
+      <option name="METHOD_NAME" value="testConexion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBConnectionTest.testConexion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agenda-contactos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.agenda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.agenda" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.agenda.DBConnectionTest" />
+      <option name="METHOD_NAME" value="testConexion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="agenda-contactos" />
       <method v="2">
@@ -63,6 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ContactoManagerTest.testInsertarContacto" />
+        <item itemvalue="JUnit.DBConnectionTest.testConexion (1)" />
+        <item itemvalue="JUnit.DBConnectionTest.testConexion" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,6 +175,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Operaciones CRUD" />
     <option name="LAST_COMMIT_MESSAGE" value="Operaciones CRUD" />
   </component>
