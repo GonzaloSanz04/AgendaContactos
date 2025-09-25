@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="agenda-contactos" />
         <module name="AgendaContactos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="agenda-contactos" target="19" />
       <module name="AgendaContactos" target="19" />
     </bytecodeTargetLevel>
   </component>
